@@ -34,13 +34,6 @@ nav {
     text-decoration: none;
 }
 
-.login-btn {
-    background: white;
-    color: black;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
 
 
 .top {
@@ -70,15 +63,6 @@ nav {
     position: relative;
     z-index: 2;
 }
-
-.top-content h1 {
-    font-size: 36px;
-}
-
-.topo-content p {
-    font-size: 18px;
-}
-
 .top h1 {
     font-size: 40px;
 }
@@ -106,12 +90,10 @@ nav {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-}
-
-.start-btn {
     background: black;
     color: white;
 }
+
 .about {
     background: #f8f9fa;
     padding: 80px 5%;
@@ -180,4 +162,12 @@ nav {
     }
 }
 
+.login-btn {
+    background: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
 
